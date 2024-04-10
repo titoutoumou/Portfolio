@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+  </head>
+  <body>
+    <header>
+      <h1 class="main-title">Portfolio de Tristan Kestelyn</h1>
+      <nav>
+        <ul>
+          <li><a href="#presentation">Présentation</a></li>
+          <li><a href="#formation">Formation</a></li>
+          <li><a href="#Me Contacter">Me Contacter</a></li>
+        </ul>
+      </nav>
+    </header>
+    <img src="assets/images/PSX_20240226_132653.jpg" alt="ma tête" />
+    <main>
+      <section id="presentation">
+        <h2>Présentation</h2>
+        <p>
+          Je suis un jeune homme de 24 ans actuellement en formation au sein du
+          programme latoile, une exellente formation mis en oeuvre par la
+          célèbre école de l'em Lyon basé à Ecully.Je suis une personne
+          souriant et curieux. J'ai hate dans apprendre encore plus sur le
+          monde du numérique grâce à cette formation.A coté de tous ça je suis
+          plutôt sportif, je joue dans un club de tennis de table et pratique
+          assidûment des ballades régulières. Mes passions son principalement la
+          musique, le sport et les jeux vidéos.
+        </p>
+      </section>
+
+      <section id="formation">
+        <h2>Formation</h2>
+        <p>
+          J'ai tous d'abors effectuer un bac stmg pour ensuite enchainer sur une
+          première année de license à la faculté de lyon 2 à bron, j'ai ensuite
+          entrepris une formation de paysagiste qui n'a malheuresement pas
+          aboutis.J'ai ensuite effectué plusieurs métiers très variés comme:
+          plongeur,aide au coach dans un club de tennis de
+          table,brancardier,préparateur de commande.
+        </p>
+        <h2>Compétence:<h2>
+        <h2>html<h2>  
+        <progress id="progress-1" value="25" max="100"></progress>
+        <h2>css<h2>
+        <progress id="progress-1" value="25" max="100"></progress>
+        <h2>pack office<h2>
+        <progress id="progress-1" value="70" max="100"></progress>  
+      </section>
+      <section id="contact">
+        <h2>Me Contacter</h2>
+        <form method="post" action="send_contact.php" class="contact-form">
+          <label for="name">Nom :</label>
+          <input type="text" id="name" name="name" placeholder="Michel" required/><br />
+          
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="email" placeholder="michel.robert@gmail.com" required /><br />
+      
+          <label for="message">Message :</label><br />
+          <textarea id="message" name="message" placeholder="Je vous contact pour..." required></textarea><br />
+      
+          <input type="submit" value="Envoyer" />
+      </form>
+      
+      </section>
+    </main>
+  </body>
+</html>
